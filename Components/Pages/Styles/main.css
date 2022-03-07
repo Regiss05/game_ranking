@@ -1,5 +1,6 @@
 body {
     background-color: rgb(236, 236, 236);
+    font-size: 13px;
 }
 
 .navbar-brand img {
@@ -11,12 +12,28 @@ body {
 }
 
 #background-video {
-    position: absolute;
+    /* position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
-    z-index: -1;
+    z-index: -1; */
+    width: 100%;
 }
+
+.programs-class {
+    background-image: url("/Components/Pages/Assets/imgs.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 10px;
+}
+
+h4 {
+    color: rgb(255, 115, 0);
+}
+
+/* .paragraph-main {
+    width: 30rem;
+} */
