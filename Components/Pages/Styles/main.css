@@ -1,6 +1,90 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+
 body {
-    background-color: rgb(236, 236, 236);
+    background-color: rgba(236, 236, 236, 0.151);
     font-size: 13px;
+    font-family: "lato",sans-serif;
+}
+
+.body-bg {
+    min-height: 99vh;
+    z-index: 2;
+}
+
+.title {
+    position: absolute;
+    z-index: 7;
+    top: 13rem;
+    left: 7rem;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+}
+
+.descruption p {
+    color: black;
+    font-size: 17px;
+}
+
+.descruption {
+    width: 58%;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #e7e7e7;
+    border-radius: 10px;
+}
+
+.title h4 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    font-family: "lato",sans-serif;
+}
+
+.title h1 {
+    font-size: 6rem;
+    font-family: 'cocogoose', sans-serif;
+    color: var(--seconderyColor);
+    background-image: url("/Components/Pages/Assets/main.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title h3 {
+    color: white;
+}
+
+.prod-year h3 {
+    margin-top: 3rem;
+    font-family: 'cocogoose', sans-serif;
+}
+
+.prod-year p {
+    color: rgb(211, 211, 211);
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+}
+
+#background-video {
+   position: absolute;
+   right: 0;
+   top: 0;
+   min-height: 100vh;
+   width: 100vh;
+   z-index: -1;
 }
 
 .navbar-brand img {
@@ -13,8 +97,6 @@ body {
 
 .programs-class {
     background-image: url("/Components/Pages/Assets/hit-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 3rem 10px;
 }
 
@@ -33,6 +115,23 @@ h4 {
 
     .progra-section p {
         font-size: 10px;
+    }
+
+    .descruption p {
+    font-size: 11px;
+    }
+
+    .prod-year h3 {
+    margin-top: 2rem;
+    font-family: 'cocogoose', sans-serif;
+    }
+    .title h3 {
+        color: white;
+        font-size: 14px;
+    }
+
+    .title h1 {
+        font-size: 3rem;
     }
 
     .section-project {
@@ -70,6 +169,10 @@ h4 {
 }
 
 @media (max-width:768px){
+    .logo-container {
+        display: none;
+    }
+
     .progra-section {
         display: flex;
         padding: 10px;
