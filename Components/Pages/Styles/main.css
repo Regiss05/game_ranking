@@ -2,22 +2,21 @@
 @import url("https://fonts.cdnfonts.com/css/Lato");
 
 body {
-    background-color: rgba(236, 236, 236, 0.151);
+    /* background-color: rgba(236, 236, 236, 0.151); */
+    background-color: black;
     font-size: 13px;
     font-family: "lato",sans-serif;
 }
 
 .body-bg {
-    min-height: 99vh;
-    z-index: 2;
+    height: 99vh;
 }
 
 .title {
     position: absolute;
     z-index: 7;
-    top: 13rem;
     left: 7rem;
-    margin: 0;
+    margin-top: 7rem;
     padding: 0;
 }
 
@@ -83,7 +82,7 @@ body {
    right: 0;
    top: 0;
    min-height: 100vh;
-   width: 100vh;
+   width: 100%;
    z-index: -1;
 }
 
@@ -124,14 +123,6 @@ h4 {
     .prod-year h3 {
     margin-top: 2rem;
     font-family: 'cocogoose', sans-serif;
-    }
-    .title h3 {
-        color: white;
-        font-size: 14px;
-    }
-
-    .title h1 {
-        font-size: 3rem;
     }
 
     .section-project {
@@ -201,4 +192,19 @@ h4 {
     .img-section {
         padding-top: 20px;
     }
+}
+
+@media (min-aspect-ratio:16/9) {
+    #background-video {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media (max-aspect-ratio:16/9) {
+    #background-video {
+        width: 100%;
+        height: auto;
+    }
+    
 }
