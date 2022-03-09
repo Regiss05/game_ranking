@@ -3,31 +3,31 @@ const programs = [
     id: 1,
     picture: 'https://www.vhv.rs/viewpic/mhwRw_white-controller-icon-png-transparent-png/',
     name: 'Regiss',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse officiis obcaecati pariatur incidunt. Porro, molestiae veniam doloribus quidem veronam illum sequi minus debitis.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
   },
   {
     id: 2,
     picture: './Pages/Assets/iconsPartners/program2.png',
     name: 'Mwafrika',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse officiis obcaecati pariatur incidunt. Porro, molestiae veniam doloribus quidem veronam illum sequi minus debitis.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
   },
   {
     id: 3,
     picture: './Pages/Assets/iconsPartners/program3.png',
     name: 'Lecture',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse officiis obcaecati pariatur incidunt. Porro, molestiae veniam doloribus quidem veronam illum sequi minus debitis.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
   },
   {
     id: 4,
     picture: '../Pages/Assets/iconsPartners/program4.png',
     name: 'Lecture',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse officiis obcaecati pariatur incidunt. Porro, molestiae veniam doloribus quidem veronam illum sequi minus debitis.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
   },
   {
     id: 5,
     picture: './Pages/Assets/iconsPartners/program5.png',
     name: 'Lecture',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse officiis obcaecati pariatur incidunt. Porro, molestiae veniam doloribus quidem veronam illum sequi minus debitis.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
   },
 ];
 
@@ -85,7 +85,7 @@ const renderProgram = (program) => {
   } = program;
 
   const container = document.createElement('div');
-  container.classList.add('section-project', 'col-md-2', 'text-light', 'm-1', 'p-1', 'text-center', 'progra-section');
+  container.classList.add('section-project', 'col-md-2', 'text-light', 'm-1', 'p-3', 'text-center', 'progra-section');
   container.style.backgroundColor = 'rgba(255, 255, 255, 0.15)';
   container.setAttribute('data-id', id);
 
