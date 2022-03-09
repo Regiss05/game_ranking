@@ -1,0 +1,42 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+
+.logo-container {
+    width: 6rem;
+}
+
+.text-title {
+    font-family: 'cocogoose', sans-serif;
+    color: #EC5242;
+    font-size: 3rem;
+    padding-top: 5rem;
+    width: 40%;
+}
+
+.sm-description {
+    margin: 5rem auto;
+}
+
+.section-product {
+    margin: 5rem auto;
+}
+
+.test01 {
+    width: 25rem;
+    padding: 30px auto !important;
+    background: linear-gradient(0deg, rgba(255, 23, 23, 0.6), rgba(255, 0, 0, 0.589)), url('../../About/Assets/bgyear.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.test01 h3 {
+    font-family: 'cocogoose', sans-serif;
+    font-size: 40px;
+    color: white;
+}

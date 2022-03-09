@@ -141,7 +141,7 @@ const renderGame = (game) => {
 const renderGames = () => {
   const container = document.querySelector('.ranking-section');
   const containerDiv = document.createElement('div');
-  containerDiv.classList.add('container');
+  containerDiv.classList.add('row', 'd-flex', 'justify-content-center');
 
   gamesRanking.forEach((game) => {
     containerDiv.appendChild(renderGame(game));
