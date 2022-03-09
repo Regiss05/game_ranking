@@ -47,10 +47,10 @@ body {
 .title h1 {
     font-size: 6rem;
     font-family: 'cocogoose', sans-serif;
-    color: var(--seconderyColor);
+    /* color: var(--seconderyColor); */
     background-image: url("/Components/Pages/Assets/main.jpeg");
     background-size: cover;
-    background-position: center center;
+    background-position: cover;
     background-clip: initial;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -81,7 +81,7 @@ body {
    position: absolute;
    right: 0;
    top: 0;
-   min-height: 100vh;
+   height: auto;
    width: 100%;
    z-index: -1;
 }
@@ -105,6 +105,12 @@ h4 {
 
 .progra-section div img {
     width: 50%;
+}
+
+.ptners-logo:hover {
+    transform: rotate(360deg);
+    transition: all 1s;
+    cursor: pointer;
 }
 
 @media (min-width:768px) and (max-width:992px){
