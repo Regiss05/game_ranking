@@ -123,9 +123,10 @@ const renderGame = (game) => {
   } = game;
 
   const container = document.createElement('div');
+  container.classList.add('speakers-section', 'col-md-6', 'd-flex', 'justify-content-center');
+  container.setAttribute('data-id', idG);
 
   container.innerHTML = `
-  <div class="speakers-section col-md-6 d-flex justify-content-center">
   <img class="m-4 w-25 img-games"
     src="${imageG}"
     alt="profile picture">
@@ -133,8 +134,19 @@ const renderGame = (game) => {
     <h4 class="pt-5" style="color:black; font-weight:900">${nameG}</h4>
     <span class="pt-4" style="font-style: italic; color: #EC5242;">${titleG}</span>
     <p class="pt-4">${descriptionG}</p>
-  </div>
   `;
+  return container;
 };
 
-// renderGame();
+const renderGames = () => {
+  const container = document.querySelector('.ranking-section');
+  const containerDiv = document.createElement('div');
+  containerDiv.classList.add('container');
+
+  gamesRanking.forEach((game) => {
+    containerDiv.appendChild(renderGame(game));
+    container.appendChild(containerDiv);
+  });
+};
+
+renderGames();

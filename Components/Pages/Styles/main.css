@@ -47,7 +47,6 @@ body {
 .title h1 {
     font-size: 6rem;
     font-family: 'cocogoose', sans-serif;
-    /* color: var(--seconderyColor); */
     background-image: url("/Components/Pages/Assets/main.jpeg");
     background-size: cover;
     background-position: cover;
