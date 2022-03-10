@@ -105,6 +105,7 @@ footer {
   font-size: 6rem;
   font-family: 'cocogoose', sans-serif;
   background-image: url("../Assets/main.jpeg");
+  color: white;
   background-size: cover;
   background-clip: initial;
   -webkit-background-clip: text;
