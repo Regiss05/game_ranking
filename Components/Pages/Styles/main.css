@@ -104,7 +104,7 @@ footer {
 .title h1 {
   font-size: 6rem;
   font-family: 'cocogoose', sans-serif;
-  background-image: url("/Components/Pages/Assets/main.jpeg");
+  background-image: url("../Assets/main.jpeg");
   background-size: cover;
   background-clip: initial;
   -webkit-background-clip: text;
