@@ -26,9 +26,9 @@ This project is to help demostrating or put into practice what we have learned a
 - Bootstrap
 - weblint, eslint, hint
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://regiss05.github.io/game_ranking/)
 
 
 ## Getting Started
