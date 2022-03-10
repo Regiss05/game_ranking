@@ -80,9 +80,9 @@ body {
    position: absolute;
    right: 0;
    top: 0;
-   height: auto;
-   width: 100%;
    z-index: -1;
+   object-fit: fill;
+   width: 200vh;
 }
 
 .navbar-brand img {
@@ -153,7 +153,7 @@ h4 {
     }
 
     .text-speakers span {
-        font-size: 6px;
+        font-size: 10px;
         font-style: normal !important;
     }
 
@@ -162,9 +162,30 @@ h4 {
         padding: 0 !important;
         margin: 0 !important;
     }
+
+    .title h1 {
+        font-size: 5rem;
+    }
 }
 
 @media (max-width:768px){
+    .title {
+        left: 0;
+        padding: 30px;
+    }
+
+    .body-bg {
+        height: 83vh;
+    }
+
+    .title h1 {
+        font-size: 4rem;
+    }
+
+    .descruption {
+        width: 100%;
+    }
+
     .logo-container {
         display: none;
     }
@@ -199,17 +220,13 @@ h4 {
     }
 }
 
-@media (min-aspect-ratio:16/9) {
-    #background-video {
-        width: 100%;
-        height: auto;
+    @media (max-width:570px){
+        .title h1 {
+            font-size: 3rem;
+        }
+
+        .title h4 {
+            font-size: 37px;
+        }
     }
-    
-}
-@media (max-aspect-ratio:16/9) {
-    #background-video {
-        width: 100%;
-        height: auto;
-    }
-    
-}
+

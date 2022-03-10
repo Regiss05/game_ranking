@@ -1,32 +1,32 @@
 const programs = [
   {
     id: 1,
-    picture: 'https://www.vhv.rs/viewpic/mhwRw_white-controller-icon-png-transparent-png/',
-    name: 'Regiss',
+    picture: 'https://icon-library.com/images/games-icon-png/games-icon-png-4.jpg',
+    name: 'MKKE',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
   },
   {
     id: 2,
-    picture: './Pages/Assets/iconsPartners/program2.png',
-    name: 'Mwafrika',
+    picture: 'https://icon-library.com/images/games-icon-png/games-icon-png-4.jpg',
+    name: 'WGAME',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
   },
   {
     id: 3,
-    picture: './Pages/Assets/iconsPartners/program3.png',
-    name: 'Lecture',
+    picture: 'https://icon-library.com/images/games-icon-png/games-icon-png-4.jpg',
+    name: 'GTA V',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
   },
   {
     id: 4,
-    picture: '../Pages/Assets/iconsPartners/program4.png',
-    name: 'Lecture',
+    picture: 'https://icon-library.com/images/games-icon-png/games-icon-png-4.jpg',
+    name: 'FIFA',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
   },
   {
     id: 5,
-    picture: './Pages/Assets/iconsPartners/program5.png',
-    name: 'Lecture',
+    picture: 'https://icon-library.com/images/games-icon-png/games-icon-png-4.jpg',
+    name: 'GOD OF WAR',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
   },
 ];
