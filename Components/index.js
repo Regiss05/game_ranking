@@ -3,31 +3,31 @@ const programs = [
     id: 1,
     picture: 'https://icon-library.com/images/games-icon-png/games-icon-png-4.jpg',
     name: 'MKKE',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos',
+    description: 'In the best cinematic story that NetherRealm has crafted yet, Mortal Kombat 11 serves up a zany time-traveling adventure',
   },
   {
     id: 2,
     picture: 'https://icon-library.com/images/games-icon-png/games-icon-png-4.jpg',
     name: 'WGAME',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
+    description: 'A Thiefs End is an action-adventure game played from a third-person perspective, with platforming elements.',
   },
   {
     id: 3,
     picture: 'https://icon-library.com/images/games-icon-png/games-icon-png-4.jpg',
     name: 'GTA V',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
+    description: 'Grand Theft Auto V is an action-adventure game played from either a third-person or first-person perspective.',
   },
   {
     id: 4,
     picture: 'https://icon-library.com/images/games-icon-png/games-icon-png-4.jpg',
     name: 'FIFA',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
+    description: 'Single-player, multiplayer. FIFA 22 is a football simulation video game published by Electronic Arts.',
   },
   {
     id: 5,
     picture: 'https://icon-library.com/images/games-icon-png/games-icon-png-4.jpg',
     name: 'GOD OF WAR',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
+    description: 'this game focuses on Norse mythology and follows an older and more seasoned Kratos and his new son Atreus.',
   },
 ];
 

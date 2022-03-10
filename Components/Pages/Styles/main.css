@@ -2,7 +2,6 @@
 @import url("https://fonts.cdnfonts.com/css/Lato");
 
 body {
-  background-color: black;
   font-size: 13px;
   font-family: "lato", sans-serif;
 }
@@ -13,6 +12,10 @@ body {
 
 .nav-change {
   font-size: 20px;
+}
+
+.collapse ul li a {
+  font-size: 17px;
 }
 
 .nav-content {
@@ -52,6 +55,7 @@ body {
 
 footer {
   background-color: rgba(236, 236, 236);
+  margin-top: 3rem;
 }
 
 .footer-title {
@@ -118,6 +122,11 @@ footer {
 
 .prod-year p {
   color: rgb(211, 211, 211);
+}
+
+.progra-section div h4 {
+  color: #ec5242;
+  font-weight: bold;
 }
 
 .navbar {
