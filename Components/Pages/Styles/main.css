@@ -2,241 +2,232 @@
 @import url("https://fonts.cdnfonts.com/css/Lato");
 
 body {
-    /* background-color: rgba(236, 236, 236, 0.151); */
-    background-color: black;
-    font-size: 13px;
-    font-family: "lato",sans-serif;
+  background-color: black;
+  font-size: 13px;
+  font-family: "lato", sans-serif;
 }
 
 .body-bg {
-    height: 99vh;
+  height: 99vh;
 }
 
 .title {
-    position: absolute;
-    z-index: 7;
-    left: 7rem;
-    margin-top: 7rem;
-    padding: 0;
+  position: absolute;
+  z-index: 7;
+  left: 7rem;
+  margin-top: 7rem;
+  padding: 0;
 }
 
 .header {
-    background-color: black;
+  background-color: black;
 }
 
 .descruption p {
-    color: black;
-    font-size: 17px;
+  color: black;
+  font-size: 17px;
 }
 
 .descruption {
-    width: 58%;
-    background-color: white;
-    padding: 20px;
-    border: 2px solid #e7e7e7;
-    border-radius: 10px;
+  width: 58%;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #e7e7e7;
+  border-radius: 10px;
 }
 
 .title h4 {
-    font-size: 50px;
-    margin: 0;
-    padding: 0;
-    font-family: "lato",sans-serif;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  font-family: "lato", sans-serif;
+  color: #ec5242;
 }
 
 .title h1 {
-    font-size: 6rem;
-    font-family: 'cocogoose', sans-serif;
-    background-image: url("/Components/Pages/Assets/main.jpeg");
-    background-size: cover;
-    background-position: cover;
-    background-clip: initial;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 6rem;
+  font-family: 'cocogoose', sans-serif;
+  background-image: url("/Components/Pages/Assets/main.jpeg");
+  background-size: cover;
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .title h3 {
-    color: white;
+  color: white;
 }
 
 .prod-year h3 {
-    margin-top: 3rem;
-    font-family: 'cocogoose', sans-serif;
+  margin-top: 3rem;
+  font-family: 'cocogoose', sans-serif;
 }
 
 .prod-year p {
-    color: rgb(211, 211, 211);
+  color: rgb(211, 211, 211);
 }
 
 .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 5;
-    width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
 }
 
 #background-video {
-   position: absolute;
-   right: 0;
-   top: 0;
-   z-index: -1;
-   object-fit: fill;
-   width: 200vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  object-fit: fill;
+  width: 200vh;
 }
 
 .navbar-brand img {
-    width: 5rem;
+  width: 5rem;
 }
 
 .bgp-light {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 .programs-class {
-    background-image: url("/Components/Pages/Assets/hit-bg.png");
-    padding: 3rem 10px;
-}
-
-h4 {
-    color: #EC5242;
+  background-image: url("/Components/Pages/Assets/hit-bg.png");
+  padding: 3rem 10px;
 }
 
 .progra-section div img {
-    width: 50%;
+  width: 50%;
 }
 
 .ptners-logo:hover {
-    transform: rotate(360deg);
-    transition: all 1s;
-    cursor: pointer;
+  transform: rotate(360deg);
+  transition: all 1s;
+  cursor: pointer;
 }
 
 .progra-section {
-    background-color: rgba(255, 255, 255, 0.15);
-    transition: all 0.3s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease-in-out;
 }
 
 .progra-section:hover {
-    background-color: rgb(46, 46, 46);
-    border: 1px solid white;
+  background-color: rgb(46, 46, 46);
+  border: 1px solid white;
 }
 
-@media (min-width:768px) and (max-width:992px){
-    .progra-section div h4 {
-        font-size: 10px;
-    }
+@media (min-width: 768px) and (max-width: 992px) {
+  .text-speakers h4 {
+    font-size: 10px;
+  }
 
-    .progra-section p {
-        font-size: 10px;
-    }
+  .progra-section div h4 {
+    font-size: 10px;
+  }
 
-    .descruption p {
+  .progra-section p {
+    font-size: 10px;
+  }
+
+  .descruption p {
     font-size: 11px;
-    }
+  }
 
-    .prod-year h3 {
+  .prod-year h3 {
     margin-top: 2rem;
     font-family: 'cocogoose', sans-serif;
-    }
+  }
 
-    .section-project {
-        padding: 1px !important;
-    }
+  .section-project {
+    padding: 1px !important;
+  }
 
-    .speakers-section img {
-        width: 60%;
-    }
+  .speakers-section img {
+    width: 10rem !important;
+    height: 12rem !important;
+  }
 
-    .text-speakers img {
-        margin: 0;
-        padding: 0;
-    }
+  .text-speakers img {
+    margin: 0;
+    padding: 0;
+  }
 
-    .text-speakers h4 {
-        font-size: 10px;
-    }
+  .text-speakers span {
+    font-size: 10px;
+    font-style: normal !important;
+  }
 
-    .speakers-section img {
-        width: 10rem !important;
-        height: 12rem !important;
-    }
+  .text-speakers p {
+    font-size: 10px;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 
-    .text-speakers span {
-        font-size: 10px;
-        font-style: normal !important;
-    }
-
-    .text-speakers p {
-        font-size: 10px;
-        padding: 0 !important;
-        margin: 0 !important;
-    }
-
-    .title h1 {
-        font-size: 5rem;
-    }
+  .title h1 {
+    font-size: 5rem;
+  }
 }
 
-@media (max-width:768px){
-    .title {
-        left: 0;
-        padding: 30px;
-    }
+@media (max-width: 768px) {
+  .title {
+    left: 0;
+    padding: 30px;
+  }
 
-    .body-bg {
-        height: 83vh;
-    }
+  .body-bg {
+    height: 83vh;
+  }
 
-    .title h1 {
-        font-size: 4rem;
-    }
+  .title h1 {
+    font-size: 4rem;
+  }
 
-    .descruption {
-        width: 100%;
-    }
+  .descruption {
+    width: 100%;
+  }
 
-    .logo-container {
-        display: none;
-    }
+  .logo-container {
+    display: none;
+  }
 
-    .progra-section {
-        display: flex;
-        padding: 10px;
-    }
-    .progra-section p {
-        text-align: left;
-    }
+  .progra-section {
+    display: flex;
+    padding: 10px;
+  }
 
-    .partners-section {
-        display: flex;
-        justify-content: center;
-    }
+  .progra-section p {
+    text-align: left;
+  }
 
-    .partners-section div img {
-        width: 10rem !important;
-    }
+  .partners-section {
+    display: flex;
+    justify-content: center;
+  }
 
-    .programs-container {
-        margin: 20px !important;
-    }
+  .partners-section div img {
+    width: 10rem !important;
+  }
 
-    .params {
-        padding: 20px;
-    }
+  .programs-container {
+    margin: 20px !important;
+  }
 
-    .img-section {
-        padding-top: 20px;
-    }
+  .params {
+    padding: 20px;
+  }
+
+  .img-section {
+    padding-top: 20px;
+  }
 }
 
-    @media (max-width:570px){
-        .title h1 {
-            font-size: 3rem;
-        }
+@media (max-width: 570px) {
+  .title h1 {
+    font-size: 3rem;
+  }
 
-        .title h4 {
-            font-size: 37px;
-        }
-    }
-
+  .title h4 {
+    font-size: 37px;
+  }
+}
