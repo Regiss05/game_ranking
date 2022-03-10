@@ -13,6 +13,87 @@
   width: 40%;
 }
 
+.navbar-change-style {
+  font-size: 20px;
+}
+
+.log-button {
+  border: 3px solid #ec5242;
+  color: #ec5242;
+}
+
+.header-container {
+  background-image: url("../../../../Components/Pages/Assets/main.png");
+}
+
+.line-color {
+  width: 2rem;
+  height: 3px;
+  background-color: #ec5242;
+}
+
+.text-comment {
+  width: 50rem;
+  background-color: white;
+}
+
+.params-exp {
+  width: 50rem;
+}
+
+.line-empty {
+  height: 30px;
+}
+
+.card-det {
+  font-family: 'lato', sans-serif;
+}
+
+.line-height {
+  width: 2rem;
+  height: 3px;
+  background-color: #ec5242;
+}
+
+.text-card {
+  width: 50%;
+}
+
+.logo-about img {
+  width: 25rem;
+}
+
+.rank-section-about {
+  border-top: 1px solid rgb(155, 155, 155);
+}
+
+.title-rank {
+  font-family: 'lato', sans-serif;
+}
+
+.testymonies2 {
+  font-family: 'lato', sans-serif;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: rgb(39, 39, 39);
+}
+
+.footer-logo {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.rank-desc {
+  width: 50%;
+}
+
+.footer-text-comment {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .sm-description {
   margin: 5rem auto;
 }

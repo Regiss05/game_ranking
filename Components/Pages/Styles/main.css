@@ -11,6 +11,59 @@ body {
   height: 99vh;
 }
 
+.nav-change {
+  font-size: 20px;
+}
+
+.nav-content {
+  border: 3px solid #ec5242;
+  color: #ec5242;
+}
+
+.line-bellow {
+  width: 2rem;
+  height: 3px;
+  background-color: #ec5242;
+}
+
+.ranking-section {
+  background-color: rgba(236, 236, 236);
+}
+
+.cont-nav {
+  width: 2rem;
+  height: 3px;
+  background-color: #ec5242;
+}
+
+.section-div-nav {
+  background-color: white;
+}
+
+.title-h4-part {
+  color: rgb(54, 54, 54);
+}
+
+.line-black {
+  width: 2rem;
+  height: 3px;
+  background-color: rgb(54, 54, 54);
+}
+
+footer {
+  background-color: rgba(236, 236, 236);
+}
+
+.footer-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.footer-params {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .title {
   position: absolute;
   z-index: 7;
