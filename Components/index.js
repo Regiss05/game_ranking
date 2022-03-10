@@ -3,7 +3,7 @@ const programs = [
     id: 1,
     picture: 'https://icon-library.com/images/games-icon-png/games-icon-png-4.jpg',
     name: 'MKKE',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos',
   },
   {
     id: 2,
@@ -35,35 +35,35 @@ const gamesRanking = [
   {
     idG: 1,
     imageG: 'https://res.cloudinary.com/ujuzi/image/upload/v1643795308/MICROVERSE/capstone-project-html-css-javascript/speakers/image-1_tomeut.png',
-    nameG: 'Regiss',
+    nameG: 'Yoa Benkel',
     titleG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe asp',
     descriptionG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse officiis obcaecati pariatur incidunt. Porro, molestiae veniam doloribus quidem veronam illum sequi minus debitis.',
   },
   {
     idG: 2,
     imageG: 'https://res.cloudinary.com/ujuzi/image/upload/v1643795308/MICROVERSE/capstone-project-html-css-javascript/speakers/image-1_tomeut.png',
-    nameG: 'Mwafrika',
-    titleG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe asp',
+    nameG: 'Allain Bishweka',
+    titleG: '',
     descriptionG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse officiis obcaecati pariatur incidunt. Porro, molestiae veniam doloribus quidem veronam illum sequi minus debitis.',
   },
   {
     idG: 3,
     imageG: 'https://res.cloudinary.com/ujuzi/image/upload/v1643795308/MICROVERSE/capstone-project-html-css-javascript/speakers/image-1_tomeut.png',
-    nameG: 'Regiss',
+    nameG: 'Regiss Muk',
     titleG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe asp',
     descriptionG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse officiis obcaecati pariatur incidunt. Porro, molestiae veniam doloribus quidem veronam illum sequi minus debitis.',
   },
   {
     idG: 4,
     imageG: 'https://res.cloudinary.com/ujuzi/image/upload/v1643795308/MICROVERSE/capstone-project-html-css-javascript/speakers/image-1_tomeut.png',
-    nameG: 'Regiss',
+    nameG: 'Kerry Eliazard',
     titleG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe asp',
     descriptionG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse officiis obcaecati pariatur incidunt. Porro, molestiae veniam doloribus quidem veronam illum sequi minus debitis.',
   },
   {
     idG: 5,
     imageG: 'https://res.cloudinary.com/ujuzi/image/upload/v1643795308/MICROVERSE/capstone-project-html-css-javascript/speakers/image-1_tomeut.png',
-    nameG: 'Regiss',
+    nameG: 'William Dubois',
     titleG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe asp',
     descriptionG: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos praesentium adipisci saepe aspernatur ipsa. Esse officiis obcaecati pariatur incidunt. Porro, molestiae veniam doloribus quidem veronam illum sequi minus debitis.',
   },
@@ -86,7 +86,6 @@ const renderProgram = (program) => {
 
   const container = document.createElement('div');
   container.classList.add('section-project', 'col-md-2', 'text-light', 'm-1', 'p-3', 'text-center', 'progra-section');
-  container.style.backgroundColor = 'rgba(255, 255, 255, 0.15)';
   container.setAttribute('data-id', id);
 
   container.innerHTML = `
