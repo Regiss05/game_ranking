@@ -137,10 +137,9 @@ footer {
     width: auto;
   }
 
-
-.rank-desc {
-  width: auto;
-  padding: 0 34px;
+  .rank-desc {
+    width: auto;
+    padding: 0 34px;
   }
 
   .text-card {
