@@ -89,7 +89,7 @@ const renderProgram = (program) => {
   container.setAttribute('data-id', id);
 
   container.innerHTML = `
-    <div class="pic-lect">
+    <div class="pic-lect mt">
         <img class="img-section" src="${picture}" alt="">
         <h4 class="">${name}</h4>
     </div>

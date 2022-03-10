@@ -26,7 +26,7 @@ const renderArtical = (article) => {
   container.setAttribute('data-id', id);
 
   container.innerHTML = `
-  <div data-id class="test01 col-md-6 m-3" style="background: linear-gradient(0deg, rgba(255, 23, 23, 0.6), rgba(255, 0, 0, 0.589)), url('${image}');">
+  <div data-id class="test01 fts col-md-6 m-3" style="background: linear-gradient(0deg, rgba(255, 23, 23, 0.6), rgba(255, 0, 0, 0.589)), url('${image}');">
     <h3 style="font-family: 'cocogoose', sans-serif;">${name}</h3>
     <p style="color: white;">${description}</p>
   </div>
