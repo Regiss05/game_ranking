@@ -152,6 +152,7 @@ footer {
 
 .bgp-light {
   background-color: white !important;
+  z-index: 15;
 }
 
 .programs-class {
@@ -177,6 +178,18 @@ footer {
 .progra-section:hover {
   background-color: rgb(46, 46, 46);
   border: 1px solid white;
+}
+
+.full-divcontainer {
+  width: 100%;
+}
+
+.img-games {
+  max-width: 30vh !important;
+}
+
+.partners-section {
+  width: 100%;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -232,6 +245,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .ranking-section {
+    padding: auto 3rem !important;
+  }
+
   .title {
     left: 0;
     padding: 30px;
@@ -242,7 +259,23 @@ footer {
   }
 
   .title h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+
+  .descruption p {
+    font-size: 12px;
+  }
+
+  .title h4 {
+    font-size: 31px;
+  }
+
+  .prod-year h3 {
+    margin-top: 2rem;
+  }
+
+  .prod-year h3 {
+    font-size: 20px;
   }
 
   .descruption {
@@ -286,10 +319,46 @@ footer {
 
 @media (max-width: 570px) {
   .title h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .title h4 {
-    font-size: 37px;
+    font-size: 21px;
+  }
+
+  .descruption p {
+    font-size: 11px;
+  }
+
+  .prod-year h3 {
+    margin-top: 2rem;
+    font-size: 17px;
+  }
+
+  .text-comment {
+    width: auto;
+  }
+}
+
+@media (max-width: 570px) {
+  .title h1 {
+    font-size: 1rem;
+  }
+
+  .title h4 {
+    font-size: 16px;
+  }
+
+  .descruption p {
+    font-size: 7px;
+  }
+
+  .prod-year h3 {
+    margin-top: 2rem;
+    font-size: 7px;
+  }
+
+  .prod-year p {
+    font-size: 13px;
   }
 }

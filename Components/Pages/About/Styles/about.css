@@ -119,3 +119,32 @@ footer {
   font-size: 40px;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .logo-container {
+    display: none;
+  }
+
+  .text-comment {
+    width: auto;
+  }
+
+  .params-exp {
+    width: auto;
+  }
+
+  .text-title {
+    width: auto;
+  }
+
+
+.rank-desc {
+  width: auto;
+  padding: 0 34px;
+  }
+
+  .text-card {
+    width: auto;
+    padding: 0 20px;
+  }
+}

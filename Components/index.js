@@ -102,7 +102,7 @@ const renderProgram = (program) => {
 const renderPrograms = () => {
   const container = document.querySelector('.main-program-container');
   const containerDisplay = document.createElement('div');
-  containerDisplay.classList.add('row', 'd-flex', 'justify-content-center');
+  containerDisplay.classList.add('row', 'd-flex', 'justify-content-center', 'full-divcontainer');
 
   programs.forEach((program) => {
     containerDisplay.appendChild(renderProgram(program));
@@ -126,10 +126,12 @@ const renderGame = (game) => {
   container.setAttribute('data-id', idG);
 
   container.innerHTML = `
-  <img class="m-4 w-25 img-games"
+  <div col-md-6>
+  <img class="m-2 img-games"
     src="${imageG}"
     alt="profile picture">
-  <div class="text-speakers w-50">
+  </div>
+  <div class="text-speakers col-md-6 m-2">
     <h4 class="pt-5" style="color:black; font-weight:900">${nameG}</h4>
     <span class="pt-4" style="font-style: italic; color: #EC5242;">${titleG}</span>
     <p class="pt-4">${descriptionG}</p>
